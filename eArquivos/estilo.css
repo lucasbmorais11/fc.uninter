@@ -1,6 +1,243 @@
 
 body{
     background-color:#2E2E2E ;
+    width: 100%;
+    height: 100%;
+}
+
+#titulo{
+    text-align: center;
+    color: aliceblue;
+    background-color: #4D4D4D;
+
+}
+
+#paragrafo{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+#bt {
+    color: aliceblue;
+    background-color:rgb(235, 119, 11);
+    border-radius: 10px;
+    width: 50%; 
+    height: 70px; 
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#dbt{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+    height: 200px; 
+}
+
+#pMsg{
+    display: flex;
+    color: rgb(235, 119, 11);
+    
+    padding: 40px;
+    font-size: 25px;
+    font-style: oblique;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 1000px;
+    background-color: #ddd;
+    border-radius: 10px;
+    border-style: dashed;
+}
+
+
+
+#dParagrafo{
+    display: flex;
+    border-bottom: 1px solid rgb(235, 119, 11);
+    text-align:justify;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#4D4D4D;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#dManga{
+    display: flex;
+    height: 500px;
+    background-color: rgb(192, 200, 207);
+    display: flex;
+    border-radius: 10%;
+    width: 40%;
+    justify-content: center;
+    margin: auto;
+
+}
+
+#dManga img{
+    border-radius: 20%;
+}
+
+#imgM{
+    max-width: 100%;
+    width: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+.dDescricao{
+    display: flex;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+
+}
+.pai{
+    display: flex;
+    width: 60%;
+    height: 100%;
+    flex-direction: column;
+    gap:100px;
+
+}
+.tab{
+    display: flex;
+    color: rgb(37, 39, 39);
+    background-color: #fffefe;
+    border: 10px solid #ddd;
+    border-radius: 8px;
+    border-collapse: collapse;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 20%;
+    text-align: center;
+    
+    
+}
+
+ 
+.ddd{
+
+    color: #fffefe;
+    background-color: rgb(49, 51, 51);
+    display: flex;
+    margin: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    font-size: 30px;
+    font-style: oblique;
+    text-align: justify;
+    border-style: dashed ;
+    border-color: rgb(235, 119, 11);
+    
+    
+}
+
+.ddd2{
+
+    color: #fffefe;
+    background-color: rgb(49, 51, 51);
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    font-size: 30px;
+    font-style: oblique;
+    text-align: justify;
+    border-style: dashed ;
+    border-color: rgb(235, 119, 11);
+    margin: 30px;
+}
+
+.ddd3{
+
+    color: #fffefe;
+    background-color: rgb(49, 51, 51);
+    display: flex;
+    margin: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    font-size: 30px;
+    font-style: oblique;
+    text-align: justify;
+    border-style: dashed ;
+    border-color: rgb(235, 119, 11);
+
+
+}
+#link{
+    padding: 10px;
+    margin: 10px;
+    color: #e0e40b;
+
+}
+
+#link:hover{
+    color:rgb(18, 184, 81);
+    border: #ddd;
+    border-style: double;
+    font-size: 20px;
+    
+    
+}
+
+#dLink{
+    display: flex;
+    justify-content: center;
+}
+
+.corC{
+    display: flex;
+    color: rgb(241, 148, 8);
+    gap: 30px;
+}
+
+.descricaoP{
+    position: absolute;
+    display: flex;
+    color: #fffefe;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.espacov2{
+    height: 100px;
+}
+
+.itemL{
+    display:flex;
+    padding: 12px;
+    height: 35px;
+    border-style:double;
+    align-items: center;
+    
+}
+
+#dList{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: auto;
+    height: auto;
+    margin: auto;
+    
+}
+
+
+
+/*em cima os id embaixo as classes para poder achar com mais facilidade*/
+body{
+    background-color:#2E2E2E ;
    
     
 }
