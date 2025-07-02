@@ -1,5 +1,5 @@
-
 body{
+    /*O fundo da página deve ter uma cor suave. */
     background-color:#2E2E2E ;
     width: 100%;
     height: 100%;
@@ -7,6 +7,7 @@ body{
 }
 
 #titulo{
+    /*O título (<h1>) deve ter uma cor diferente e estar centralizado. */
     text-align: center;
     color: aliceblue;
     background-color: #4D4D4D;
@@ -14,6 +15,7 @@ body{
 }
 
 #paragrafo{
+    /*O parágrafo (<p>) deve ter um tamanho de fonte maior e ser justificado.*/
     color: aliceblue;
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -97,15 +99,15 @@ body{
 
 }
 
-#dManga img{
-    border-radius: 20%;
-}
+
 
 #imgM{
+    /*A imagem (<img>) deve ter bordas arredondadas e um tamanho adequado. */
     max-width: 100%;
     width: 600px;
     margin-top: 50px;
     margin-bottom: 50px;
+    border-radius: 20%;
 }
 
 
@@ -115,6 +117,7 @@ body{
     width: 100%;
     padding-left: 10%;
     padding-right: 5%;
+    
     
 
 }
@@ -127,6 +130,7 @@ body{
 
 }
 .tab{
+    /*A tabela(<table>) deve estar estilizada.  */
     display: flex;
     color: rgb(37, 39, 39);
     background-color: #fffefe;
@@ -167,6 +171,7 @@ body{
 }
 
 #link:hover{
+    /*O link (<a>) deve mudar de cor quando o usuário passar o mouse sobre ele*/
     color:rgb(18, 184, 81);
     border: #ddd;
     border-style: double;
@@ -181,6 +186,7 @@ body{
 }
 
 .corItemEspac{
+    /*A lista (<ul>) deve ter um espaçamento maior entre os itens.*/
     display: flex;
     color: rgb(241, 148, 8);
     gap: 30px;
@@ -219,4 +225,3 @@ body{
 
 
 
-/*em cima os id embaixo as classes para poder achar com mais facilidade*/
