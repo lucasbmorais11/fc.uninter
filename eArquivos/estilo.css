@@ -1,3 +1,4 @@
+
 body{
     /*O fundo da página deve ter uma cor suave. */
     background-color:#2E2E2E ;
@@ -126,7 +127,7 @@ body{
     width: 60%;
     height: 100%;
     flex-direction: column;
-    gap:100px;
+    gap:120px;
 
 }
 .tab{
@@ -225,3 +226,4 @@ body{
 
 
 
+/*em cima os id embaixo as classes para poder achar com mais facilidade*/
